@@ -23,7 +23,7 @@ use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
 
 final class WebpackEncoreExtension extends Extension
 {
-    private const ENTRYPOINTS_FILE_NAME = 'entrypoints.json';
+    const ENTRYPOINTS_FILE_NAME = 'entrypoints.json';
 
     public function load(array $configs, ContainerBuilder $container)
     {
